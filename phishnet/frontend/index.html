@@ -1,1 +1,28 @@
 <!-- MAIN INTERFACE -->
+
+<!-- Basic UI Layout (for now): -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PhishNet - Spot the Scam</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🐟 PhishNet</h1>
+  <p>Can you spot the phishing emails?</p>
+
+  <div id="email-container" class="card"></div>
+
+  <div class="buttons">
+    <button id="safe">Looks Safe ✅</button>
+    <button id="phish">Looks Suspicious 🚫</button>
+  </div>
+
+  <p id="result"></p>
+  <p id="score">Score: 0</p>
+
+  <script src="script.js"></script>
+</body>
+</html>
