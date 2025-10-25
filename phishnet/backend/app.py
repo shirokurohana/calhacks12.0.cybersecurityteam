@@ -139,7 +139,7 @@ def parse_json_from_model(raw_text):
 
 @app.route('/')
 def serve_index():
-    return send_from_directory('frontend', 'index.html')
+    return send_from_directory('../frontend', 'index.html')
 
 @app.route('/api/email')
 def get_email():
