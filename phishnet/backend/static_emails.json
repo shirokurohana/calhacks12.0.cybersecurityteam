@@ -1,1 +1,26 @@
-// Starter / Skeleton Code in GhatGPT if needed or desired (Ctrl/Cmd + F 'static_emails.json')
+[
+  {
+    "sender": "support@micros0ft.com",
+    "subject": "Your account has been suspended!",
+    "body": "Click here to verify your account before it’s permanently disabled: http://micros0ft-verify.tk",
+    "is_phish": true
+  },
+  {
+    "sender": "noreply@university.edu",
+    "subject": "Your semester grades are available",
+    "body": "Please log in to your official university portal to view your results.",
+    "is_phish": false
+  },
+  {
+    "sender": "paypal-alerts@secure-paypall.com",
+    "subject": "Unusual activity detected",
+    "body": "Confirm your account immediately to avoid being locked out.",
+    "is_phish": true
+  },
+  {
+    "sender": "hr@company.com",
+    "subject": "Team lunch this Friday!",
+    "body": "Hey everyone, don’t forget our team lunch at noon on Friday at the cafeteria!",
+    "is_phish": false
+  }
+]
