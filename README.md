@@ -1,4 +1,4 @@
-# calhacks12.0.cybersecurityteam
+# PhishNet
 CalHacks 12.0 Cybersecurity Team
 
 official team members
